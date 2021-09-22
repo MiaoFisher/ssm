@@ -1,4 +1,4 @@
--- 创建图书表
+-- 创建图书表，create table book
 CREATE TABLE `book` (
   `book_id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '图书ID',
   `name` varchar(100) NOT NULL COMMENT '图书名称',
